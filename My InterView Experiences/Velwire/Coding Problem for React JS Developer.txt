@@ -1,0 +1,7 @@
+1. https://codeforces.com/problemset/problem/1096/G
+
+2. https://leetcode.com/problems/find-maximum-non-decreasing-array-length/description/
+
+3. https://eatthecode.com/interesting-polygon-challenge/
+
+   https://www.youtube.com/watch?app=desktop&v=H52DT1sGCiM
