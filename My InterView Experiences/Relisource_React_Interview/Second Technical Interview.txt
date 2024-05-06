@@ -1,0 +1,34 @@
+ReliSource ( Technical Interview -2)
+
+i. WebPack & Bundling & Bundle
+ii. React e public folder injex.js sara r ki ki file ase. 
+iii. React e jokhon amra kono package install kori tokhon output folder e ki jay? 
+
+iv. Parent p = new Child(); // kon constructor call hobe?
+v.  class A{
+
+	class B {
+
+		class C{
+		
+	        }
+      }
+ }
+
+C# e, A class er access modifier ki hobe ? B and C class er access modifier compiler ki hisebe treat korbe?
+
+vi. Browser ki react er code direct porte pare? 
+
+vii. Babel niye question koresilo. so eta niye aro porasuna korte hobe.
+
+viii. Browser Storage, Session Storage and Local Storage er vitore difference ki ? konta koto khon data rakhbe? Server er vitore konta access korte pare? 
+
+ix. Differences between unique key and primary key.
+
+xi. Html 5 new features
+
+xii. Graphics er jonno html5 e notun ki ashse? 
+
+xiii. -> If we don't want any class to be created an instance, how can we do it? 
+	-> using abstract class.
+	-> In Java, you can prevent a class from being instantiated by making its constructor private and providing only static methods or fields within the class. This prevents other classes from creating instances of it. This pattern is commonly known as the "utility class" or "singleton class" pattern.

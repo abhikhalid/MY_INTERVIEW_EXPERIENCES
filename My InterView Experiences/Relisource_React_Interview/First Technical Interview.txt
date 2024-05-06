@@ -1,0 +1,46 @@
+Reli Source ( Technical Interview -1)
+
+i. In react, user sees which dom?
+
+ii. what is react data binding?
+
+iii. check if two string is anagram or not
+
+iv. What is key props in react?
+
+v. What is UnControlled react component? 
+
+vi. How to pick value from useRef?
+
+vii. Why we use ClassName is React not class? 
+
+viii. What happens if we assign value in useState directly without using setState() method?
+
+ix. Difference between attribute and property in html?
+
+xi. MSSQl is what kind of database?
+
+xii. Give data redundancy example in mssql?
+
+xiii. What is Left outer join?
+
+xiv. Full Outer Join
+
+xv. exist in db
+
+xvi. UNION operator in mssql
+
+xvii. What is Access Modifier in java?
+
+xviii. What is protected field in java? 
+
+xix.  how can we restric a class for further extension?
+
+xx. Difference between abstract method and class?
+
+
+
+
+-> Function overloading vs function overriding
+
+-> Another name of method overriding? 
