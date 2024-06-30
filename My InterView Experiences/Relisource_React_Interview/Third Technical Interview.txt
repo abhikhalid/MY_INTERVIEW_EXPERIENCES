@@ -1,0 +1,12 @@
+C# dot net interview
+
+i. What is dependency injection? 
+
+ii. What is DIP? 
+
+iii. Problem solving on matrix  and string.
+
+problem:
+
+input: Reliso"/urce"/"is"/"a"/"good"/"comp"any
+output: Reliso"/urce is a good comp"any

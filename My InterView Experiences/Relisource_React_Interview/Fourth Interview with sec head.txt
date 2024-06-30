@@ -1,0 +1,3 @@
+i. Puzzle: https://www.geeksforgeeks.org/puzzle-8-balls-problem/
+
+ii. Difference between DELETE, DROP AND TRUNCATE.

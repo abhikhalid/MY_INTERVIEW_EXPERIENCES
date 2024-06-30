@@ -1,0 +1,99 @@
+i. Write a CRUD API Code for Student Management System and run it with postman.
+
+   ans: 
+
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace StudentManagementSystem.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class StudentController : ControllerBase
+    {
+        public static List<Student> Students = new List<Student>();
+        private static int id = 1;
+
+        // GET: api/<ValuesController>
+        [HttpGet]
+        public IEnumerable<Student> Get()
+        {
+            return Students;
+        }
+
+        // GET api/<ValuesController>/5
+        [HttpGet("{id}")]
+        public IActionResult  Get(int id)
+        {
+            var existingStudent = Students.FirstOrDefault(s => s.id == id);
+
+            if (existingStudent == null) return NotFound();
+
+            return Ok(existingStudent);
+        }
+
+        // POST api/<ValuesController>
+        [HttpPost]
+        public IActionResult Post([FromBody] Student student)
+        {
+            student.id = id++;
+            Students.Add(student);
+            
+            return Ok();
+        }
+
+        // PUT api/<ValuesController>/5
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Student student)
+        {
+            var existingStudent = Students.FirstOrDefault(s => s.id == id);
+
+            if (existingStudent == null) return NotFound();
+
+            //now, update the exisitng student object
+            existingStudent.name = student.name;
+            existingStudent.email = student.email;
+
+            return Ok();
+        }
+
+        // DELETE api/<ValuesController>/5
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var existingStudent = Students.FirstOrDefault(s => s.id == id);
+
+            if (existingStudent == null) return NotFound();
+
+            Students.Remove(existingStudent);
+
+            return Ok();
+        }
+    }
+}
+
+   
+
+ii. You have given an array and a number. Find if the number exist in the array. Print "Yes" or "No"
+
+    MeL: Linear Search. Time: O(n), Space: O(1)
+   
+    Interviewr : this is so costly. Can you optimize it? 
+    
+    Me : If the array is sorted then we can use Binary Search alogirthm. time complexity will be reduced to O(log(n))
+
+    Interviewer: Can you explain Binary Search algorithm and how it works?
+
+    Me: Expalined it to him.
+
+    Interviewer: What is the base case of binary search algorithm?
+
+    Me: when the elemnt gets 1.
+
+    Interviewer: Can we find the element taking constant time?
+
+    Me: yes by hashing, dictionary, map.
+
+
+
+
+   
