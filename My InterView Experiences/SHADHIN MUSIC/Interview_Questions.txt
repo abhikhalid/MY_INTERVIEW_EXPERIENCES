@@ -24,8 +24,6 @@
 22. how to return from mssql without using return keyword?
 23. how to break from a statement on a specific condition without using break? (MSSQL Server)
 24. amr project e kon design pattern use kortesi? Factory Design Pattern ki jinish?
-
-
-
+25. cqrs pattern and mediatr
 
 
