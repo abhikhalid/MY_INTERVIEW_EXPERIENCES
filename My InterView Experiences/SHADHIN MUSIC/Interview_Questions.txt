@@ -1,0 +1,37 @@
+1. Dot net er kon version niye kaj korsi? (.NET 8)
+2. Dot net er latest feature e ki ki ashse?  (Minimal API)
+3. C#11, C#12 e ki ashse? 
+4. Primary Constructor ki? 
+
+5. Latest version e interface e method likha jay. (C# 8)
+
+6. Deadlock ki? Deadlock kivabe handle korbo? 
+
+7. Table e onk data hoye gese. kivabe optimize korbo? 
+   Partition korbo ki diye? lets say user table
+
+8. IEnumerable vs IAsyncEnumerable er difference ki? 
+9. Anagram problem solving.
+10. Ekta SP deau holo. ami kivabe optimize korbo? Query Optimization? 
+11. SQL Profiler ki? 
+12. Rabbit MQ, MicroService? 
+13. Minimal API ki? 
+14. Angram Checking Problem solving.
+15. Ekta API er security barabo kivabe? 
+16. First and FirstOrDefault er difference ki? 
+17. APi optimized ase, but server e hit beshi portise. ki korbo? 
+18. Indexing koto prokar ? 
+19. Function r Stored Procedure er difference ki? 
+20. diffrence between IQueryable and IEnumerable? 
+21. In sql, we do left join. also use 'in' operator for subqueries. 
+    how to do it in linq? 
+22. how to return from mssql without using return keyword?
+23. how to break from a statement on a specific condition without using break? (MSSQL Server)
+24. amr project e kon design pattern use kortesi? Factory Design Pattern ki jinish?
+25. cqrs pattern and mediatr.
+26. What is Distributed Cache? When should we use Redis over in-memory collection? 
+27. difference between interface and abstract class? 
+28. get method diye post request kora jabe ki? 
+29. how to migrate data from one database to another?
+
+

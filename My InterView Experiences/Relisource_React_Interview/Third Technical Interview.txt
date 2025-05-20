@@ -9,4 +9,4 @@ iii. Problem solving on matrix  and string.
 problem:
 
 input: Reliso"/urce"/"is"/"a"/"good"/"comp"any
-output: Reliso"/urce is a good comp"any
+output: Relisource is a good comp"any

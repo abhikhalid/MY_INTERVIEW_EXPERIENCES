@@ -1,0 +1,334 @@
+Express/NodeJs:
+
+
+
+1. let data=[{name: 'Israr', age: 28}]
+
+const callApi   = async ()=>{
+
+const res = await fetchData()
+
+return res.json()
+
+}
+
+callApi()
+
+What it will return()
+
+a. [{name: 'Israr', age: 28}]
+
+b. promise
+
+c. []
+
+d. error
+
+
+
+2. An output problem with emit. e.g.
+
+const EventEmitter = require('events');
+
+
+
+// Create an instance of EventEmitter
+
+const myEmitter = new EventEmitter();
+
+
+
+// Register an event listener for the 'greet' event
+
+myEmitter.on('greet', (name) => {
+
+console.log(`Hello, ${name}!`);
+
+});
+
+
+
+// Emit the 'greet' event
+
+myEmitter.emit('greet', 'Israr');
+
+
+
+
+
+What will be the output?
+
+a. Hello, Israr!
+
+b. error
+
+c. null
+
+d. undefined
+
+
+
+3. What will print first ?
+
+
+
+console.log("Start");
+
+
+
+process.nextTick(() => {
+
+console.log("Inside nextTick");
+
+});
+
+
+
+setImmediate(() => {
+
+console.log("Inside setImmediate");
+
+});
+
+
+
+console.log("End");
+
+
+
+a. Start, Inside nextTick, Inside setImmediate,End
+
+b. Start, Inside setImmediate,End,  Inside nextTick,
+
+c. Inside setImmediate, Inside nextTick,End, Start
+
+d. Start, End, Inside nextTick, Inside setImmediate
+
+
+
+JS:
+
+1. Which one will print fast
+
+Console, promise and settimeout
+
+2. A example of callback hell was given and gave solution in mcq
+
+options you have to choose right one.
+
+3.
+
+func call(){
+
+await getApi().then(res=>res.json())
+
+}
+
+(async()=>{
+
+call()
+
+})
+
+What it will return?
+
+
+
+1. response
+
+2. Undefined
+
+3. null
+
+4. error
+
+
+
+4. Will give a problem where it will require promise to handle.  They will give 4 option like which is the correct syntax to write promise.  
+
+a. Promise.resolve("hello").then(console.log);
+
+b. 'hello'.promise((resolve, reject) => {
+
+resolve('Resolved from string context!');
+
+}).then(console.log);
+
+
+
+5.  let obj ={a:1, b: {c : 3}}
+
+const {a, b: {c :d }}=obj
+
+console.log(b);
+
+
+
+a. 3
+
+b. d
+
+c. undefined
+
+e. error
+
+
+
+6. const res=await getData()
+
+what res will rerurn ?
+
+a. result
+
+b. promise
+
+c. runtime error
+
+d. null
+
+
+
+7. const arr=[{type: 'even', number:10},{type: 'even', number:2},{type: 'odd', number:3},{type: 'odd', number:4, }]
+
+
+
+arr.map((item)=> item.number*2).reduce((a,b)=>a+b, 5).filter(item)=>type==='even'
+
+
+
+there might be syntax error but that is how a question looked like in my interview, what it will output?
+
+
+
+1. [{type: 'even', number:10},{type: 'even', number:2}]
+
+2. 13
+
+3. 10
+
+4. error
+
+React:
+
+1. import React, { useEffect, useState } from 'react';
+
+const Counter: React.FC = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCount(count++);
+    }, 1000);
+
+    // Cleanup on unmount
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return (
+    <div>
+      <h1>Count: {count}</h1>
+    </div>
+  );
+};
+
+export default Counter;
+
+2. What approach will help to increment count after one second ?
+
+a. it is not possible
+b. setCount(prev=>prev+1)
+c. setcount(++prev)
+d. setcount(count+1)
+
+2. A code of click of button the count will increment with react.
+{
+............
+....................
+}
+
+What it will do?
+a. Increment
+b. Decrement
+c. no change
+d. run time error
+
+3.
+Approach1: 
+ useEffect(()=>{
+...code..
+})
+Approach2: 
+ useEffect(()=>{
+...code..
+},[])
+
+Which one will do task only when component mounts ?
+a. Approach1
+b. Approach2
+c. none
+d. both
+
+4. Which one is true about useRef ?
+One or More
+1. useRef is immutable
+2. useRef is mutable
+3. it is used to refer an html element
+4. useRef contains current.value
+
+5. Which facts are true about UseReducer
+One or More
+It is used to set initial state
+It gives updated state and can trigger different type actions
+.....cant remember..
+.....cant remember..
+
+6. 2 react parent child functional component was given and asked how can we pass data between these 2 component without props
+
+1. React.context...code..>
+2. <Context.provider...>
+3. <Context.provider...> but values where not recieved properly in child
+4. Not possible without props
+
+7. What is true about useMemo?
+One or More
+useMemo may have empty dependency
+UseMemo will trigger rerender of memoized component when all of its dependency will change
+Cant remember 
+Cant remember 
+8.A banking app has dashboard which contains a heavy function called calculateEmi() which is making the dashboard loading very slow.
+What can be done to fix this problem?
+1. Lazy loading
+2. useMemo
+3. cant remerber
+4. cant remember
+
+
+
+React JS Project. 
+
+3 ta user input silo. 
+
+1. user name
+2. check-in date
+3. check-out date
+
+Submit button. 
+
+Submit button e click korle information gula save korte hobe and table e data gula show korbe. Date gula soted hote hobe. 
+judi same date e multiple user thake tahole, ekta date er against e multiple user name show korte hobe. 
+
+That means Date hobe per row. 
+
+Table Structure: 
+
+|Date 		| Name
+
+	         Prianka
+01/01/2025       Israr
+                 Khalid	
+                  
+
+
+03/02/2025	  Israr
+
+04/03/2025	  Jonas  
